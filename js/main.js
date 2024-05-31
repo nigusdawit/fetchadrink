@@ -39,5 +39,3 @@ function displayError() {
     document.querySelector('img').src = "";
     document.querySelector('h3').innerText = "";
 }
-
-
