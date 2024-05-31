@@ -1,0 +1,89 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    border: solid black 2px;
+    background-color: greenyellow;
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 30px ;
+    padding-right:30px;
+  }
+  .container{
+    background-color: greenyellow;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right:30px;
+    margin-top:30px;
+    margin-left: 20px; 
+  }
+  *{
+    font-style: bold;
+    background-color: light burlywood;
+    font-family: "silkscreen";
+    font-size: small;
+    /* padding-top: 20px;
+    padding-left: 30px;
+    padding-right:30px; */
+    margin-top:30px;
+    margin-left: 20px; 
+    margin-right: 35px;;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+  }
+  h1{
+    text-align: center;
+    font-family: silkscreen;
+    font-size: medium;
+  }
+  
+  h3 h2{
+    border: black;
+    width:200px;
+    flex-direction: column;
+    align-items: center;
+    display:flex;
+    margin-top: 100px;
+  }
+  img{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  .button-container {
+    display: grid;
+    gap: 10px; /* Adds space between buttons */
+    justify-items: center; /* Center buttons horizontally */
+  }
+  .get-cocktail {
+    background-color: brown;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .surprise-me {
+    background-color: darkgreen; /* Different background color for the "Surprise Me" button */
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
